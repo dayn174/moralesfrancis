@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Achievements Dayn's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <h1>Dayn's PORTFOLIO</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="achievement.html#projects">Achievements</a>
+      <a href="skills.html#contact">Skills</a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <section>
+      <h2>My Achievements</h2>
+      <p>These are my achievements from 2017-2024</p>
+    </section>
+    <br>
+    <section id="projects">
+      <div class="projects">
+        <div class="project-card" data-title="Junior Student Connvention Awards 2017" 
+        data-description="2017 Junior Student Convention Awards: 2nd Place Basketball, 3rd Place Tchoukball, 4th Place One Act play, 5th Place Story Telling Male"
+        data-image="jsc.jpg">
+          <img src="jsc.jpg" alt="rampa" />
+          <h2>Junior Student Connvention Awards 2017</h2>
+        </div>
+        <div class="project-card" data-title="Mr. Nurtrition Month Champion 2019" 
+        data-description="Franis Morales won as the Mr. Nurtrition month 2019 located in Paranaque National High School Baclaran.
+        It was his first time to join a pageant
+        so for him it was a Leap of Faith. " 
+        data-image="g10.jfif">
+          <img src="g101.jpg" alt="rampa" />
+          <h2>Mr. Nurtrition Month Champion 2019</h2>
+        </div>
+        <div class="project-card" data-title="STI Talent Search local level Battle of the Bands Champion 2022." 
+        data-description=" Cactus Band (Juro Barron, Jm Calora, Francis Morales, Gien Guites) dominated at the local
+        level competition in STI, performing the song Halik ni hudas by the 90s OPM rock band wolfgang. " 
+        data-image="botb1.jpg">
+          <img src="botb.jpg" alt="rampa" />
+          <h2>STI Battle of the Bands Champion 2022</h2>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="projects">
+
+          <div class="projects">
+        <div class="project-card" data-title="2023 Tagisan ng Sining Shutter's Best Champion (local level)" 
+        data-description="Francis Morales's piece entitled Amaya: Mataas ang lipad won at the 2023
+        Shutter's Best in STI Pasay-EDSA. "
+        data-image="ts1.jpg">
+          <img src="ts.jpg" alt="rampa" />
+          <h2>Shutter's Best Champion 2023</h2>
+        </div>
+        </div>
+          <div class="projects">
+        <div class="project-card" data-title="2024 HeartBeat Fest 2n Place" 
+        data-description="Bucketheads' (Jocas Valeza, Dj Morales and Francis Morales) piece Bayan ko(cover) 
+        with the mixture of cultural folk and modern sound won at the 2024 Heartbeat fest located at Crossover Church Paranaque"
+        data-image="hb1.jpg">
+          <img src="hb.jpg" alt="rampa" />
+          <h2>HeartBeat Fest 2nd Place 2024</h2>
+        </div>
+      </div>
+      </section>
+    <div id="project-modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modal-image" src="data-image" alt="" />
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Francis Morales. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
